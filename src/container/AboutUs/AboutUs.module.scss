@@ -1,0 +1,161 @@
+@import "../../styles/variables";
+
+.app__aboutUs {
+  background: url("../../assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 6rem;
+}
+.app__aboutUs_overlay {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__aboutUs-overlay img {
+  width: 391px;
+  height: 415px;
+  z-index: 0;
+}
+.app__aboutUs_content {
+  width: 100%;
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__aboutUs_content_about {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: right;
+}
+.aboutUs_content_about_h1 {
+  font-family: $font-base;
+  color: $color-golden;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  line-height: 83.2px;
+  font-size: 64px;
+}
+.aboutUs_content_about_p {
+  font-family: $font-alt;
+  color: $color-grey;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+  margin: 2rem 0;
+}
+.app__aboutUs_content_history {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  text-align: left;
+}
+.aboutUs_content_history_h1 {
+  font-family: $font-base;
+  color: $color-golden;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  line-height: 83.2px;
+  font-size: 64px;
+}
+.aboutUs_content_history_p {
+  font-family: $font-alt;
+  color: $color-grey;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+  margin: 2rem 0;
+}
+.custom__button {
+  background-color: $color-golden;
+  color: $color-black;
+  font-family: $font-base;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.app__aboutUs_content_knife {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 4rem;
+}
+.app__aboutUs_content_knife img {
+  height: 700px;
+}
+@media screen and (min-width: 2000px) {
+  .app__aboutUs_content_knife img {
+    height: 1110px;
+  }
+
+  .aboutUs_content_about_p,
+  .aboutUs_content_history_p {
+    margin: 4rem 0;
+  }
+  .custom__button {
+    font-size: 37px;
+    line-height: 67px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .app__aboutUs_content {
+    flex-direction: column;
+  }
+
+  .app__aboutUs_content_knife {
+    margin: 4rem 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__aboutUs_overlay img {
+    width: 80%;
+    height: 320px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .app__aboutUs_content_about {
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    text-align: left;
+  }
+  .aboutUs_content_about_h1,
+  .aboutUs_content_history_h1 {
+    font-size: 44px;
+    line-height: 70px;
+  }
+  .aboutUs_content_about_p,
+  .aboutUs_content_history_p {
+    font-size: 12px;
+  }
+}
