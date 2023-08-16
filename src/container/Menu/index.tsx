@@ -42,6 +42,11 @@ const SpecialMenu = () => (
         </div>
       </div>
     </div>
+    <div className={styles.app__menu_button}>
+      <button type="button" className={styles.custom__button}>
+        View More
+      </button>
+    </div>
   </div>
 );
 
