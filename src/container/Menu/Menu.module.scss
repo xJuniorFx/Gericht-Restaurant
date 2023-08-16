@@ -1,0 +1,60 @@
+@import "../../styles/variables";
+
+.app__menu {
+  min-height: 100vh;
+  padding: 6rem;
+  flex-direction: column;
+
+  background-color: $color-black;
+}
+.app__menu_title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.app__menu_title_h1 {
+  font-family: $font-base;
+  color: $color-golden;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  line-height: 83.2px;
+  font-size: 64px;
+}
+.app__menu_content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+
+  width: 100%;
+  margin: 2rem 0;
+}
+.app__menu_content_img {
+  width: 410px;
+  margin: 0 2rem;
+}
+.app__menu_content_img img {
+  width: 100%;
+  height: auto;
+}
+.app__menu_content_drinks {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+.menu_content_drinks_h2 {
+  font-family: $font-base;
+  color: $color-white;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 58.5px;
+  font-size: 45px;
+
+  align-self: center;
+}
+.menu_content_drinks_items {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  width: 100%;
+}

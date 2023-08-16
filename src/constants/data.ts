@@ -98,4 +98,5 @@ const awards: Award[] = [
 ];
 
 const data = { wines, cocktails, awards };
+
 export default data;
