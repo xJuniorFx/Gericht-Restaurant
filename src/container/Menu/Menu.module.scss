@@ -26,11 +26,14 @@
   flex-direction: row;
 
   width: 100%;
-  margin: 2rem 0;
+  padding-bottom: 3rem;
 }
 .app__menu_content_img {
   width: 410px;
   margin: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 .app__menu_content_img img {
   width: 100%;
@@ -49,6 +52,7 @@
   letter-spacing: 0.04em;
   line-height: 58.5px;
   font-size: 45px;
+  margin-top: 2rem;
 
   align-self: center;
 }
@@ -76,4 +80,36 @@
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 2000px) {
+}
+@media screen and (max-width: 1150px) {
+  .app__menu {
+    padding: 6rem 2.5rem;
+  }
+  .app__menu_content {
+    flex-direction: column;
+  }
+  .app__menu_content_img {
+    width: 100%;
+    margin: 0;
+  }
+  .app__menu_content_img img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .app__menu_title {
+    margin-bottom: 0;
+  }
+  .app__menu_title_h1 {
+    font-size: 50px;
+  }
+  .menu_content_drinks_h2 {
+    font-size: 40px;
+  }
+  .app__menu_content_img img {
+    width: 100%;
+  }
 }
