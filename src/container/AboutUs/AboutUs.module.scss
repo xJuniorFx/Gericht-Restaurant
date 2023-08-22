@@ -137,6 +137,9 @@
 }
 
 @media screen and (max-width: 650px) {
+  .app__aboutUs {
+    padding: 4rem 2.5rem;
+  }
   .app__aboutUs_overlay img {
     width: 80%;
     height: 320px;
@@ -153,9 +156,5 @@
   .aboutUs_content_history_h1 {
     font-size: 44px;
     line-height: 70px;
-  }
-  .aboutUs_content_about_p,
-  .aboutUs_content_history_p {
-    font-size: 12px;
   }
 }
