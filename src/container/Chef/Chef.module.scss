@@ -1,0 +1,130 @@
+@import "../../styles/variables";
+
+.app__chef {
+  background: url("../../assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 100vh;
+  padding: 4rem;
+}
+.app__chef_img {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-right: 6rem;
+}
+.app__chef_img img {
+  width: 100%;
+  height: auto;
+}
+.app__chef_info {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.app__chef_info_h1 {
+  font-family: $font-base;
+  color: $color-golden;
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.03em;
+}
+.app__chef_info_content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  margin-top: 5rem;
+}
+.chef_info_content_quote {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.chef_info_content_quote img {
+  width: 47px;
+  height: 40px;
+  margin: 0 1rem 1rem 0;
+}
+.chef_content_quote_p {
+  font-family: $font-alt;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+}
+.app__chef_sign {
+  width: 100%;
+  margin-top: 3rem;
+}
+.app__chef_sign_name {
+  font-family: $font-base;
+  color: $color-golden;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41.6px;
+  letter-spacing: 0.04em;
+}
+.app__chef_sign_role {
+  font-family: $font-alt;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+}
+.app__chef_sign img {
+  width: 250px;
+  margin-top: 3rem;
+}
+@media screen and (max-width: 2000px) {
+  .app__chef_sign img {
+    width: 370px;
+  }
+}
+@media screen and (max-width: 1441px) {
+  .app__chef {
+    display: grid;
+  }
+  .app__chef_img {
+    padding-bottom: 4rem;
+  }
+  .app__chef_info_h1 {
+    font-size: 45px;
+  }
+  .app__chef_info_content {
+    margin-top: 2rem;
+  }
+  .app__chef_sign {
+    margin-top: 1.5rem;
+  }
+  .app__chef_sign img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__chef_info_h1 {
+    font-size: 38px;
+    line-height: 42px;
+    letter-spacing: 0;
+  }
+  .chef_content_quote_p {
+    letter-spacing: 0.02px;
+  }
+  .app__chef_sign img {
+    width: 60%;
+  }
+}
