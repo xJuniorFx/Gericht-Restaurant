@@ -90,9 +90,10 @@
   }
   .app__menu_content {
     flex-direction: column;
+    align-items: center;
   }
   .app__menu_content_img {
-    width: 100%;
+    width: 80%;
     margin: 0;
   }
   .app__menu_content_img img {
