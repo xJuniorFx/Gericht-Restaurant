@@ -1,0 +1,76 @@
+@import "../../styles/variables";
+
+.app__Laurels {
+  background: url("../../assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 100vh;
+  padding: 4rem;
+}
+.app__Laurels_info {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.app__Laurels_info_h1 {
+  font-family: $font-base;
+  color: $color-golden;
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.app__Laurels_awards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-top: 3rem;
+  gap: 3rem;
+}
+.app__Laurels_img {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__Laurels_img img {
+  width: 80%;
+}
+@media screen and (max-width: 2560px) {
+  .app__Laurels_img img {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app__Laurels {
+    flex-direction: column;
+  }
+  .app__Laurels_img {
+    padding: 4rem 4rem 0 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .app__Laurels_info_h1 {
+    font-size: 50px;
+  }
+  .app__Laurels_img {
+    padding: 2rem 2rem 0 0;
+  }
+  .app__Laurels_img img {
+    width: 100%;
+  }
+}
