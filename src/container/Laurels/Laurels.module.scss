@@ -1,6 +1,6 @@
 @import "../../styles/variables";
 
-.app__Laurels {
+.app__laurels {
   background: url("../../assets/bg.png");
   background-position: center;
   background-size: cover;
@@ -14,7 +14,7 @@
   min-height: 100vh;
   padding: 4rem;
 }
-.app__Laurels_info {
+.app__laurels_info {
   flex: 1;
   width: 100%;
   display: flex;
@@ -22,7 +22,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.app__Laurels_info_h1 {
+.app__laurels_info_h1 {
   font-family: $font-base;
   color: $color-golden;
   font-size: 64px;
@@ -30,7 +30,7 @@
   letter-spacing: 0.04em;
   text-transform: capitalize;
 }
-.app__Laurels_awards {
+.app__laurels_awards {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -39,38 +39,41 @@
   margin-top: 3rem;
   gap: 3rem;
 }
-.app__Laurels_img {
+.app__laurels_img {
   flex: 1;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.app__Laurels_img img {
-  width: 80%;
+.app__laurels_img img {
+  width: 65%;
 }
-@media screen and (max-width: 2560px) {
-  .app__Laurels_img img {
+@media screen and (min-width: 1445px) {
+  .app__laurels_img img {
     width: 60%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .app__Laurels {
+  .app__laurels {
     flex-direction: column;
   }
-  .app__Laurels_img {
+  .app__laurels_img {
     padding: 4rem 4rem 0 0;
+  }
+  .app__laurels_img img {
+    width: 60%;
   }
 }
 @media screen and (max-width: 450px) {
-  .app__Laurels_info_h1 {
+  .app__laurels_info_h1 {
     font-size: 50px;
   }
-  .app__Laurels_img {
+  .app__laurels_img {
     padding: 2rem 2rem 0 0;
   }
-  .app__Laurels_img img {
-    width: 100%;
+  .app__laurels_img img {
+    width: 125%;
   }
 }

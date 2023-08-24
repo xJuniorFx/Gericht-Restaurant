@@ -5,12 +5,12 @@ import { images, data } from "../../constants";
 import AwardCard from "../../components/AwardCard";
 
 const Laurels = () => (
-  <div className={styles.app__Laurels} id="awards">
-    <div className={styles.app__Laurels_info}>
+  <div className={styles.app__laurels} id="awards">
+    <div className={styles.app__laurels_info}>
       <SubHeading title="Awards & recognition" />
-      <h1 className={styles.app__Laurels_info_h1}>Our Laurels</h1>
+      <h1 className={styles.app__laurels_info_h1}>Our Laurels</h1>
 
-      <div className={styles.app__Laurels_awards}>
+      <div className={styles.app__laurels_awards}>
         {data.awards.map((award) => (
           <AwardCard
             title={award.title}
@@ -21,7 +21,7 @@ const Laurels = () => (
         ))}
       </div>
     </div>
-    <div className={styles.app__Laurels_img}>
+    <div className={styles.app__laurels_img}>
       <img src={images.laurels} alt="Laurels img" />
     </div>
   </div>
