@@ -1,0 +1,123 @@
+@import "../../styles/variables";
+
+.app__footer {
+  background: url("../../assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  padding: 2rem;
+}
+.app__footer_content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-top: 5rem;
+  padding: 0 2rem;
+}
+.app__footer_content_info,
+.app__footer_content_gericht {
+  flex: 1;
+  margin: 1rem;
+  text-align: center;
+}
+.footer_content_info_h1 {
+  font-family: $font-base;
+  color: $color-grey;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 29.9px;
+  font-size: 32px;
+  padding: 1rem 0;
+}
+.footer_content_info_p {
+  font-family: $font-alt;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+}
+.footer_content_gericht_h1 {
+  font-family: $font-base;
+  color: $color-golden;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 83.2px;
+  font-size: 64px;
+}
+.footer_content_gericht_p {
+  font-family: $font-alt;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 2rem 0 1rem 0;
+}
+.footer_content_gericht_media {
+  margin-top: 0.5rem;
+}
+.footer_content_gericht_media svg {
+  color: $color-white;
+  margin: 0.5rem;
+  font-size: 24px;
+  cursor: pointer;
+}
+.footer_content_gericht_media svg:hover {
+  color: color-golden;
+}
+.app__footer_copyright {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.app__footer_copyright_p {
+  font-family: $font-alt;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+}
+@media screen and (min-width: 2000px) {
+  .footer_content_info_h1 {
+    font-size: 51px;
+    line-height: 61.6px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__footer_content {
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  .app__footer_content_info,
+  .app__footer_content_gericht {
+    margin: 2rem 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__footer {
+    padding: 0 0 2 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .footer_content_gericht_h1 {
+    font-size: 50px;
+  }
+  .app__footer_copyright_p {
+    letter-spacing: 0;
+  }
+}
