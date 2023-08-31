@@ -1,11 +1,7 @@
 @import "../../styles/variables";
 
 .app__gallery {
-  background: url("../../assets/bg.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
-  background-attachment: fixed;
+  background: $color-black;
 
   display: flex;
   flex-direction: row;
