@@ -1,7 +1,8 @@
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&width=435&lines=Loading...;+Gerith+Restaurant+Landing+Page;Built+with+TypeScript%2C+SCSS+HTML/CSS" 
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=DCCA87&width=435&lines=Loading...;Gerith+Restaurant+Landing+Page;The+Key+to+Fine+Dining" 
   alt="Typing SVG" />
 </a>
+
 
 ---
 
