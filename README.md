@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&width=435&lines=Loading...;+Gerith+Restaurant+Landing+Page;Built+with+TypeScript%2C+SCSS%2C+HTML%2C+CSS" 
+  alt="Typing SVG" />
+</a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### 🚀 About the Project
 
-In the project directory, you can run:
+**Gerith** is a modern and elegant restaurant landing page, designed to showcase the restaurant's unique features and services. The page is built using **SCSS**, **TypeScript**, **HTML**, and **CSS** for a clean, responsive, and visually appealing user experience.
 
-### `npm start`
+Currently, the page includes the following sections:
+- **Home**: A welcoming introduction to the restaurant.
+- **About**: Information about the restaurant's history, vision, and mission.
+- **Menu**: A detailed list of the dishes offered at Gerith.
+- **Awards**: A section to display any accolades or recognition the restaurant has received.
+- **Contact**: A way for customers to reach out with inquiries or reservations.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In the future, the site will be enhanced with features such as **Log In/Register** and **Book Table** functionalities to improve the customer experience.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+### 🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img align="left" alt="TypeScript" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"/>
+<img align="left" alt="SCSS" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"/>
+<img align="left" alt="HTML" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"/>
+<img align="left" alt="CSS" width="35px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"/>
+<br>  
+<br>  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🏗 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Responsive Design**: Optimized for desktops, tablets, and mobile devices.
+- **Home**: Beautiful introduction and welcome message for visitors.
+- **About**: Informative section about the restaurant's story.
+- **Menu**: Display of the restaurant's offerings with descriptions.
+- **Awards**: Showcase of any awards or recognition.
+- **Contact**: Easy way for customers to get in touch or make inquiries.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### 🌎 Connect with me
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<a href="https://www.linkedin.com/in/juniorfs/" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+</a>  
+<a href="https://github.com/xJuniorFx" target="_blank">
+  <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🌐 Check out my portfolio  
+🔗 **[Portfolio](https://xjuniorfx.github.io/Portfolio/)**
